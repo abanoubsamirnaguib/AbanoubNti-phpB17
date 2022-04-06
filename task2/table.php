@@ -1,19 +1,12 @@
 <?php
-
-use function PHPSTORM_META\type;
-
 include("data.php");
-
-
-
-
 
 ?>
 <!doctype html>
 <html lang="en">
 
 <head>
-    <title>Title</title>
+    <title>Table</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -37,7 +30,6 @@ include("data.php");
                         break;
                     }
                     ?>
-                    <!-- <th>1</th> -->
                 </tr>
             </thead>
             <tbody>
@@ -56,7 +48,6 @@ include("data.php");
                                 } else {
                                     if ($key == "gender") {
                                         $text .=  ($value == "m") ? "male" : "female";
-                                        //  "at $key is $value <br> ";
                                     } else {
                                         $text .= "at $key is $value <br> ";
                                     }
