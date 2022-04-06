@@ -35,7 +35,7 @@ $users = [
             "school" => 'painting',
             'home' => 'drawing'
         ],
-        'nti 2' => 'php',
+        'nti 2' => 'php v7',
     ],
     (object)[
         'id' => 3,
@@ -53,8 +53,8 @@ $users = [
         'nti 2' => 'php',
     ],  
     (object)[
-        'id' => 3,
-        'name' => 'koty',
+        'id' => 4,
+        'name' => 'aya',
         "gender" => (object)[
             'gender' => 'f'
         ],
@@ -66,7 +66,7 @@ $users = [
             'home' => 'drawing',
             'nti' => 'php',
         ],
-        'nti 2' => 'php',
+        'nti 2' => 'php v8',
     ],  
 ];
 
