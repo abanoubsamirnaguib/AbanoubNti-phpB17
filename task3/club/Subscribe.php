@@ -9,7 +9,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $error = "<div class='alert alert-danger'>Please Fill All Inputs</div>";
   }
 }
-
 ?>
 <!doctype html>
 <html lang="en">

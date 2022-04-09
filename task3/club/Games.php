@@ -1,9 +1,9 @@
 <?php
 session_start();
-// print_r($_POST);
 if(!isset($_SESSION['name'])){
     header("location:Subscribe.php");
 }
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $_SESSION["club"] = $_POST["club"];
     $err = true;

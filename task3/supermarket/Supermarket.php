@@ -10,6 +10,7 @@ function total($total)
   return $subtotal;
 }
 
+
 function totalAfterDIS($total)
 {
   $dis = 0;

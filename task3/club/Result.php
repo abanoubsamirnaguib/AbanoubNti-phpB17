@@ -3,6 +3,7 @@ session_start();
 if(!isset($_SESSION['club']) ){
     header("location:Subscribe.php");
 }
+
 $sports = ["football", "swimming", "volleyball", "others"];
 
 function td($val, $sports)

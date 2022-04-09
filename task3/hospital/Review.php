@@ -1,5 +1,6 @@
 <?php
 session_start();
+
 if(!isset($_SESSION['Phone'])){
     header("location:Number.php");
 }
