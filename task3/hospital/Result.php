@@ -1,6 +1,9 @@
 <?php
 session_start();
 // print_r($_SESSION['answer']);
+if(!isset($_SESSION['answer'])){
+    header("location:Number.php");
+}
 
 $Qusetions = $_SESSION['Qusetions'];
 $query = $_SESSION['query'];

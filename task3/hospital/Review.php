@@ -1,5 +1,9 @@
 <?php
 session_start();
+if(!isset($_SESSION['Phone'])){
+    header("location:Number.php");
+}
+
 $Qusetions = [
     "1- Are you satisfied with the level of cleanliness?",
     "2- Are you satisfied with the service prices?",
