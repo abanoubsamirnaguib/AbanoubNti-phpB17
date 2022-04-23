@@ -1,0 +1,13 @@
+{
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        },
+        "files": [
+            "App/Helpers/func.php"
+        ]
+    },
+    "require": {
+        "phpmailer/phpmailer": "^6.6"
+    }
+}
